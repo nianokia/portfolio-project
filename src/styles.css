@@ -1,7 +1,6 @@
 :root {
   --accent-font: "Bellota Text", cursive;
   --default-font: "Jost", sans-serif;
-  --terciary-font: "Overpass", sans-serif;
   --heading-font: "Raleway", sans-serif;
   --text-font: "Open Sans", sans-serif;
 
@@ -22,6 +21,10 @@ h2 {
   font-family: var(--default-font);
   font-size: 34px;
   line-height: 52px;
+}
+
+h3 {
+  font-family: var(--default-font);
 }
 
 a,
