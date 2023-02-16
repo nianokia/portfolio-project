@@ -1,3 +1,52 @@
+:root {
+  --accent-font: "Bellota Text", cursive;
+  --default-font: "Jost", sans-serif;
+  --terciary-font: "Overpass", sans-serif;
+  --heading-font: "Raleway", sans-serif;
+  --text-font: "Open Sans", sans-serif;
+
+  --primary-color: #1e56a0;
+  --secondary-color: #d6e4f0;
+  --terciary-color: #163172;
+  --accent-color: #f6f6f6;
+}
+
 h1 {
-  color: white;
+  font-family: var(--heading-font);
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 75px;
+}
+
+h2 {
+  font-family: var(--default-font);
+  font-size: 34px;
+  line-height: 52px;
+}
+
+a,
+p {
+  font-family: var(--text-font);
+}
+
+.hero {
+  background: var(--secondary-color);
+  padding: 75px 125px;
+}
+
+.btn-hero {
+  display: block;
+  background: var(--accent-color);
+  padding: 15px;
+  width: 175px;
+}
+
+.btn-hero:hover {
+  background: var(--terciary-color);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.hero img {
+  width: 75%;
 }
