@@ -31,7 +31,7 @@ p {
 
 .hero {
   background: var(--secondary-color);
-  padding: 75px 125px;
+  padding: 75px 55px;
 }
 
 .btn-hero {
@@ -49,4 +49,31 @@ p {
 
 .hero img {
   width: 75%;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .hero-left-col {
+    width: 100%;
+  }
+
+  .hero-right-col {
+    display: none;
+  }
+
+  .hero-btn {
+    display: block;
+    margin: auto;
+  }
 }
