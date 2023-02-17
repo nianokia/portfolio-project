@@ -40,7 +40,6 @@ p {
 }
 
 .btn-hero {
-  display: block;
   background: var(--accent-color);
   padding: 15px;
   width: 175px;
@@ -60,7 +59,18 @@ p {
   width: 100%;
 }
 
-@media (max-width: 576px) {
+.homepage-my-works a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.homepage-my-works a:hover {
+  text-decoration: underline;
+  color: var(--terciary-color);
+  opacity: 85%;
+}
+
+@media (max-width: 960px) {
   h1 {
     font-size: 48px;
   }
