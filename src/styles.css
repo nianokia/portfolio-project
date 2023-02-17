@@ -25,6 +25,8 @@ h2 {
 
 h3 {
   font-family: var(--default-font);
+  font-size: 18px;
+  text-align: center;
 }
 
 a,
@@ -52,6 +54,10 @@ p {
 
 .hero img {
   width: 75%;
+}
+
+.homepage-my-works-imgs {
+  width: 100%;
 }
 
 @media (max-width: 576px) {
