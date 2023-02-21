@@ -34,6 +34,10 @@ p {
   font-family: var(--text-font);
 }
 
+p {
+  font-size: 20px;
+}
+
 .hero {
   background: var(--secondary-color);
   padding: 75px 125px;
@@ -51,8 +55,9 @@ p {
   border: 1px solid var(--accent-color);
 }
 
-.hero img {
+.profile-pic {
   width: 75%;
+  border-radius: 25px;
 }
 
 .homepage-my-works-imgs {
@@ -70,6 +75,10 @@ p {
   opacity: 85%;
 }
 
+.shecodes-certificates {
+  width: 100%;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 48px;
@@ -81,21 +90,29 @@ p {
     line-height: 1;
   }
 
+  p {
+    font-size: 16px;
+  }
+
   .hero {
     text-align: center;
     padding: 30px 50px;
   }
 
-  .hero-left-col {
+  .hero-content {
     width: 100%;
   }
 
-  .hero-right-col {
+  .hero-img {
     display: none;
   }
 
   .hero-btn {
     display: block;
     margin: auto;
+  }
+
+  .certificates p {
+    display: none;
   }
 }
