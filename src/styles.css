@@ -115,6 +115,11 @@ p {
   border-radius: 10px;
 }
 
+footer a {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 48px;
