@@ -29,6 +29,10 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  font-family: var(--default-font);
+}
+
 a,
 p {
   font-family: var(--text-font);
@@ -75,8 +79,40 @@ p {
   opacity: 85%;
 }
 
+.about-container {
+  background: var(--secondary-color);
+}
+
+.about-container .hero {
+  background: var(--accent-color);
+}
+
+.about-container .btn-hero {
+  background: var(--secondary-color);
+}
+
+.about-container .btn-hero:hover {
+  background: var(--primary-color);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
 .shecodes-certificates {
   width: 100%;
+}
+
+.skills-content {
+  background: var(--primary-color);
+  color: var(--accent-color);
+  padding: 50px 20px;
+  border-radius: 10px;
+}
+
+.hobbies-content {
+  background: var(--primary-color);
+  color: var(--accent-color);
+  padding: 40px 20px;
+  border-radius: 10px;
 }
 
 @media (max-width: 960px) {
@@ -88,6 +124,10 @@ p {
   h2 {
     font-size: 24px;
     line-height: 1;
+  }
+
+  h4 {
+    font-size: 14px;
   }
 
   p {
@@ -112,7 +152,15 @@ p {
     margin: auto;
   }
 
+  .skills-content {
+    padding: 10px 0;
+  }
+
   .certificates p {
     display: none;
+  }
+
+  .hobbies-content {
+    padding: 10px 0;
   }
 }
