@@ -115,6 +115,10 @@ p {
   border-radius: 10px;
 }
 
+.my-works-imgs {
+  width: 100%;
+}
+
 footer a {
   color: var(--primary-color);
   font-weight: bold;
