@@ -153,6 +153,18 @@ p {
   max-width: 900px;
 }
 
+.contact-container a {
+  color: var(--primary-color);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.contact-container a:hover {
+  color: var(--terciary-color);
+  text-decoration: underline;
+  opacity: 85%;
+}
+
 footer a {
   color: var(--primary-color);
   font-weight: bold;
