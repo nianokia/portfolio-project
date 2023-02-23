@@ -137,6 +137,11 @@ p {
   font-size: 24px;
 }
 
+.work-descriptions p {
+  font-size: 16px;
+  opacity: 85%;
+}
+
 .work-container img {
   width: 100%;
   border-radius: 25px;
