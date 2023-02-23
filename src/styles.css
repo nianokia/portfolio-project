@@ -42,6 +42,10 @@ p {
   font-size: 20px;
 }
 
+.page-container {
+  background: var(--accent-color);
+}
+
 .hero {
   background: var(--secondary-color);
   padding: 75px 125px;
@@ -64,19 +68,19 @@ p {
   border-radius: 25px;
 }
 
-.homepage-my-works-imgs {
-  width: 100%;
-}
-
-.homepage-my-works a {
+.homepage-content a {
   text-decoration: none;
   color: var(--primary-color);
 }
 
-.homepage-my-works a:hover {
+.homepage-content a:hover {
   text-decoration: underline;
   color: var(--terciary-color);
   opacity: 85%;
+}
+
+.homepage-work-imgs {
+  width: 100%;
 }
 
 .about-container {
@@ -97,7 +101,7 @@ p {
   border: 1px solid var(--accent-color);
 }
 
-.shecodes-certificates {
+.certificates img {
   width: 100%;
 }
 
@@ -115,8 +119,27 @@ p {
   border-radius: 10px;
 }
 
-.my-works-imgs {
+.work-container {
+  max-width: 1000px;
+}
+
+.work-container .row {
+  margin-top: 50px;
+}
+
+.work-descriptions {
+  text-align: justify;
+  border-radius: 20px;
+  padding: 20px 60px;
+}
+
+.work-descriptions h3 {
+  font-size: 24px;
+}
+
+.work-container img {
   width: 100%;
+  border-radius: 25px;
 }
 
 footer a {
@@ -171,5 +194,21 @@ footer a {
 
   .hobbies-content {
     padding: 10px 0;
+  }
+
+  .work-container {
+    width: 90%;
+  }
+
+  .work-container .row {
+    margin-top: 15px;
+  }
+
+  .work-descriptions {
+    padding: 20px;
+  }
+
+  .work-descriptions h3 {
+    font-size: 20px;
   }
 }
