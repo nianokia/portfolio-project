@@ -10,6 +10,10 @@
   --accent-color: #f6f6f6;
 }
 
+body {
+  background: var(--accent-color);
+}
+
 h1 {
   font-family: var(--heading-font);
   font-weight: bold;
@@ -40,10 +44,6 @@ p {
 
 p {
   font-size: 20px;
-}
-
-.page-container {
-  background: var(--accent-color);
 }
 
 .hero {
@@ -147,6 +147,12 @@ p {
   border-radius: 25px;
 }
 
+.contact-container {
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
 footer a {
   color: var(--primary-color);
   font-weight: bold;
@@ -215,5 +221,13 @@ footer a {
 
   .work-descriptions h3 {
     font-size: 20px;
+  }
+
+  .contact-container {
+    text-align: center;
+  }
+
+  .contact-title {
+    font-size: 42px;
   }
 }
