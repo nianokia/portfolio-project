@@ -82,6 +82,12 @@ p {
   max-height: 35px;
 }
 
+.logo:hover {
+  opacity: 60%;
+  transition: all 1000ms ease-in-out;
+  transform: rotateY(360deg);
+}
+
 .hero {
   background: var(--secondary-color);
   padding: 75px 125px;
@@ -201,9 +207,18 @@ p {
   opacity: 85%;
 }
 
-footer a {
+footer .socials {
+  font-size: 28px;
+}
+
+footer i {
   color: var(--primary-color);
-  font-weight: bold;
+}
+
+footer i:hover {
+  opacity: 85%;
+  transition: all 750ms ease-in-out;
+  transform: rotate(360deg);
 }
 
 @media (max-width: 960px) {
