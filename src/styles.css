@@ -14,6 +14,34 @@ body {
   background: var(--accent-color);
 }
 
+nav {
+  padding: 15px 0;
+  line-height: 35px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--terciary-color);
+  font-size: 16px;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
 h1 {
   font-family: var(--heading-font);
   font-weight: bold;
@@ -46,18 +74,12 @@ p {
   font-size: 20px;
 }
 
+.nav-container {
+  margin: 0px 0px;
+}
+
 .logo {
-  max-width: 50px;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
+  max-height: 35px;
 }
 
 .hero {
@@ -185,6 +207,14 @@ footer a {
 }
 
 @media (max-width: 960px) {
+  nav li {
+    margin-left: 10px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
   h1 {
     font-size: 48px;
     line-height: 1.25;
