@@ -365,6 +365,14 @@ footer i:hover {
 }
 
 @media (max-width: 575px) {
+  .nav-container {
+    margin: 0 25px;
+  }
+
+  .nav-home {
+    display: none;
+  }
+
   .certificate-responsive {
     margin-top: 15px;
   }
