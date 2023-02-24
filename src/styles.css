@@ -181,7 +181,7 @@ p {
 
 .work-descriptions p {
   font-size: 16px;
-  opacity: 85%;
+  opacity: 80%;
 }
 
 .work-container img {
@@ -207,16 +207,24 @@ p {
   opacity: 85%;
 }
 
+footer {
+  margin: 50px 0;
+}
+
 footer .socials {
   font-size: 28px;
 }
 
 footer i {
+  background: var(--secondary-color);
   color: var(--primary-color);
+  padding: 10px;
+  border-radius: 50%;
 }
 
 footer i:hover {
-  opacity: 85%;
+  background: var(--primary-color);
+  color: var(--secondary-color);
   transition: all 750ms ease-in-out;
   transform: rotate(360deg);
 }
