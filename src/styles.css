@@ -160,7 +160,7 @@ p {
   border: 1px solid var(--secondary-color);
   background: var(--accent-color);
   color: black;
-  padding: 50px 20px;
+  padding: 30px 20px;
   border-radius: 10px;
 }
 
@@ -348,10 +348,6 @@ footer i:hover {
 }
 
 @media (max-width: 767px) {
-  .certificate-responsive {
-    margin-top: 15px;
-  }
-
   .contact-title {
     margin: 25px 0px;
   }
@@ -366,5 +362,11 @@ footer i:hover {
 
   footer .author {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .certificate-responsive {
+    margin-top: 15px;
   }
 }
