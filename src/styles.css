@@ -94,14 +94,15 @@ p {
 
 .btn-hero {
   background: var(--accent-color);
+  color: var(--terciary-color);
   padding: 15px;
   width: 175px;
 }
 
 .btn-hero:hover {
   background: var(--terciary-color);
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .profile-pic {
@@ -142,11 +143,12 @@ p {
 
 .about-container .btn-hero {
   background: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .about-container .btn-hero:hover {
   background: var(--primary-color);
-  color: var(--accent-color);
+  color: var(--secondary-color);
   border: 1px solid var(--accent-color);
 }
 
