@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Learn more about Nia's skills and hobbies. Check out her Tech Certificates. Nia Wright is a front-end developer based in South Carolina. With her non-traditional background, specializing in languages, she uses her previous language learning process to learn new coding languages. In 6 months she's developed a nice grasp of HTML, CSS, & JavaScript."
+    />
+    <title>About Nia - Nia Wright</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,15 +31,32 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/styles.css" />
-    <title>About Me</title>
   </head>
   <body>
+    <div class="nav-container mx-5">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"
+          ><img
+            src="/img/logo-transparent.png"
+            class="logo"
+            alt="nia wright's logo"
+        /></a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Nia">About</a>
+          </li>
+          <li><a href="/work.html" title="Nia's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Nia">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="about-container">
       <div class="hero container-fluid">
         <div class="row">
           <div class="col hero-img ms-3">
             <img
-              src="img/profile-pic.jpg"
+              src="/img/profile-pic.jpg"
               alt="Nia Wright with dark brown locs and a jean jacket at sunset"
               class="img-fluid profile-pic shadow-sm"
             />
@@ -42,87 +64,127 @@
           <div class="col hero-content">
             <h1 class="mb-3">Nia Wright</h1>
             <p class="mb-5">
-              Hi everyone! I'm a junior front-end developer looking to sharpen
-              my skills in web development. In my spare time I love reading
-              manga.
+              Hi everyone! I'm a Junior Front-End Developer, coming from a
+              non-traditional background, specializing in languages. I utilize
+              this skillset of language learning to learn new coding languages.
+              In 6 months I've become proficient in HTML, CSS, & JavaScript. In
+              my spare time, I love reading manga.
             </p>
             <div class="hero-content-btn">
-              <a href="#" class="btn btn-hero shadow-sm">My Resume</a>
+              <a
+                href="https://www.linkedin.com/in/nia-wright-7b099a191/"
+                class="btn btn-hero shadow-sm"
+                target="_blank"
+                >My Resume</a
+              >
             </div>
           </div>
         </div>
       </div>
-      <div class="skills mx-5">
-        <h2 class="my-4 text-center">Skills</h2>
-        <div class="skills-content container text-center">
-          <div class="row">
-            <div class="col-sm-4"><h4>HTML</h4></div>
-            <div class="col-sm-4"><h4>CSS</h4></div>
-            <div class="col-sm-4"><h4>JavaScript</h4></div>
-            <div class="col-sm-4"><h4>Responsive</h4></div>
-            <div class="col-sm-4"><h4>SEO</h4></div>
-            <div class="col-sm-4"><h4>Git</h4></div>
-          </div>
-        </div>
-      </div>
-      <div class="certificates mx-5">
-        <h2 class="my-4 text-center mb-4">Certificates</h2>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-3">
-              <img
-                src="img/shecodes-basics.png"
-                alt="shecodes basics certificate for Nia Wright"
-              />
-              <p class="text-center mt-2">SheCodes Basics</p>
-            </div>
-            <div class="col-sm-3">
-              <img
-                src="img/shecodes-basics-addon.png"
-                alt="SheCodes Basics Add-on Certificate for Nia Wright"
-              />
-              <p class="text-center mt-2">SheCodes Basics Add-on</p>
-            </div>
-            <div class="col-sm-3">
-              <img
-                src="img/shecodes-plus.png"
-                alt="SheCodes Plus Certificate for Nia Wright"
-              />
-              <p class="text-center mt-2">SheCodes Plus</p>
-            </div>
-            <div class="col-sm-3">
-              <img
-                src="img/shecodes-plus-addon.png"
-                alt="SheCodes Plus Add-on Certificate for Nia Wright"
-              />
-              <p class="text-center mt-2">SheCodes Plus Add-on</p>
+      <div class="about-content">
+        <div class="skills mx-5 pt-2">
+          <h2 class="my-4 text-center">Skills</h2>
+          <div class="skills-content container text-center">
+            <div class="row">
+              <div class="col-sm-4"><h4>HTML</h4></div>
+              <div class="col-sm-4"><h4>CSS</h4></div>
+              <div class="col-sm-4"><h4>JavaScript</h4></div>
+              <div class="col-sm-4"><h4>Responsive</h4></div>
+              <div class="col-sm-4"><h4>SEO</h4></div>
+              <div class="col-sm-4"><h4>Git</h4></div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="hobbies mx-5">
-        <h2 class="my-4 text-center">Hobbies</h2>
-        <div class="hobbies-content container text-center">
-          <div class="row">
-            <div class="col-sm-3">
-              <i class="fa-solid fa-book-open my-3"></i>
-              <h4>Reading</h4>
+        <div class="certificates mx-5">
+          <h2 class="my-4 text-center mb-4">Certificates</h2>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-3">
+                <img
+                  src="/img/shecodes-basics.png"
+                  alt="shecodes basics certificate for Nia Wright"
+                />
+                <p class="text-center mt-2">SheCodes Basics</p>
+              </div>
+              <div class="col-sm-3 certificate-responsive">
+                <img
+                  src="/img/shecodes-basics-addon.png"
+                  alt="SheCodes Basics Add-on Certificate for Nia Wright"
+                />
+                <p class="text-center mt-2">SheCodes Basics Add-on</p>
+              </div>
+              <div class="col-sm-3 certificate-responsive">
+                <img
+                  src="/img/shecodes-plus.png"
+                  alt="SheCodes Plus Certificate for Nia Wright"
+                />
+                <p class="text-center mt-2">SheCodes Plus</p>
+              </div>
+              <div class="col-sm-3 certificate-responsive">
+                <img
+                  src="/img/shecodes-plus-addon.png"
+                  alt="SheCodes Plus Add-on Certificate for Nia Wright"
+                />
+                <p class="text-center mt-2">SheCodes Plus Add-on</p>
+              </div>
             </div>
-            <div class="col-sm-3">
-              <i class="fa-solid fa-tv my-3"></i>
-              <h4>Watching TV Shows</h4>
-            </div>
-            <div class="col-sm-3">
-              <i class="fa-solid fa-palette my-3"></i>
-              <h4>Painting</h4>
-            </div>
-            <div class="col-sm-3">
-              <i class="fa-solid fa-headphones-simple my-3"></i>
-              <h4>Listening to Music</h4>
+          </div>
+        </div>
+        <div class="hobbies mx-5 pb-5">
+          <h2 class="my-4 text-center">Hobbies</h2>
+          <div class="hobbies-content container text-center">
+            <div class="row">
+              <div class="col-sm-3">
+                <i class="fa-solid fa-book-open my-3 d-none d-sm-block"></i>
+                <h4>Reading</h4>
+              </div>
+              <div class="col-sm-3">
+                <i class="fa-solid fa-tv my-3 d-none d-sm-block"></i>
+                <h4>Watching TV Shows</h4>
+              </div>
+              <div class="col-sm-3">
+                <i class="fa-solid fa-palette my-3 d-none d-sm-block"></i>
+                <h4>Painting</h4>
+              </div>
+              <div class="col-sm-3">
+                <i
+                  class="fa-solid fa-headphones-simple my-3 d-none d-sm-block"
+                ></i>
+                <h4>Listening to Music</h4>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <footer>
+      <h2 class="text-center mb-3">Connect</h2>
+      <div class="socials d-flex justify-content-evenly">
+        <a href="mailto:lyne789@gmail.com" title="Email Nia"
+          ><i class="fa-regular fa-envelope"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/nia-wright-7b099a191/"
+          target="_blank"
+          title="LinkedIn Profile"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a
+          href="https://github.com/nianokia"
+          title="GitHub Profile"
+          target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <div class="author text-center mt-4 mx-3">
+        This project was coded by Nia Wright and is
+        <a
+          href="https://github.com/nianokia/portfolio-project"
+          target="_blank"
+          title="Porfolio Repository"
+          >open-sourced</a
+        >.
+      </div>
+    </footer>
   </body>
 </html>

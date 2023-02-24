@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Check out her work and reach out for any work inquiries. Nia Wright is a front-end developer based in South Carolina. With her non-traditional background, specializing in languages, she uses her previous language learning process to learn new coding languages."
+    />
+    <title>Nia's Work - Nia Wright</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,59 +31,123 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/styles.css" />
-    <title>My Work</title>
   </head>
   <body>
-    <div class="hero">
-      <div class="hero-content">
-        <h1 class="mt-5">My Work</h1>
-      </div>
+    <div class="nav-container mx-5">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"
+          ><img
+            src="/img/logo-transparent.png"
+            class="logo"
+            alt="nia wright's logo"
+        /></a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Nia">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Nia's Work">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Nia">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="work-container container mt-5">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="img/weather-app.png" alt="screenshot of weather app" />
+    <div class="work-container">
+      <div class="hero">
+        <div class="hero-content">
+          <h1 class="">My Work</h1>
         </div>
-        <div class="col-md-6 work-descriptions">
-          <h3>Weather App</h3>
-          <p>
-            I built this project with HTML, CSS, JS, and a Weather API to allow
-            the user to find the weather in any city.
-          </p>
-        </div>
+      </div>
+      <div class="work-content container mt-5">
         <div class="row">
           <div class="col-md-6">
-            <img
-              src="img/world-clock-app.png"
-              alt="screenshot of world clock app"
-            />
+            <a
+              href="https://niawright-weather-app.netlify.app/"
+              title="Weather App"
+              target="_blank"
+            >
+              <img src="/img/weather-app.png" alt="screenshot of weather app" />
+            </a>
           </div>
           <div class="col-md-6 work-descriptions">
-            <h3>World Clock App</h3>
+            <h3>Weather App</h3>
             <p>
-              I built this clock app with HTML, CSS, JS and a Time API. The user
-              can see the time in any of the select cities and find their local
-              time.
+              I built this project with HTML, CSS, JavaScript, and a Weather API
+              to allow the user to find the weather in any city.
             </p>
           </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col-md-6">
-            <img
-              src="img/webtoon-lp-zoom-out.png"
-              alt="screenshot of webtoon landing page"
-            />
+          <div class="row">
+            <div class="col-md-6">
+              <a
+                href="https://nia-wright-world-clock-app.netlify.app/"
+                title="World Clock App"
+                target="_blank"
+              >
+                <img
+                  src="/img/world-clock-app.png"
+                  alt="screenshot of world clock app"
+              /></a>
+            </div>
+            <div class="col-md-6 work-descriptions">
+              <h3>World Clock App</h3>
+              <p>
+                I built this clock app with HTML, CSS, JavaScript and an API.
+                The user can see the time in any of the select cities and find
+                their local time.
+              </p>
+            </div>
           </div>
-          <div class="col-md-6 work-descriptions">
-            <h3>Webtoon Landing Page</h3>
-            <p>
-              I created this landing page to introduce one of my favorite
-              comics, Webtoons. It details what Webtoons are and where they came
-              from.
-            </p>
+          <div class="row">
+            <div class="col-md-6">
+              <a
+                href="https://www.shecodes.io/workshops/shecodes-basics-add-on-ecafa430-58b4-4e23-a1ae-9ecb128d2388/projects/1336594"
+                title="Webtoon Landing Page"
+                target="_blank"
+              >
+                <img
+                  src="/img/webtoon-lp-zoom-out.png"
+                  alt="screenshot of webtoon landing page"
+              /></a>
+            </div>
+            <div class="col-md-6 work-descriptions">
+              <h3>Webtoon Landing Page</h3>
+              <p>
+                I created this landing page to introduce one of my favorite
+                comics, Webtoons. It details what Webtoons are and where they
+                came from.
+              </p>
+            </div>
           </div>
         </div>
       </div>
+      <footer>
+        <h2 class="text-center mb-3">Connect</h2>
+        <div class="socials d-flex justify-content-evenly">
+          <a href="mailto:lyne789@gmail.com" title="Email Nia"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/nia-wright-7b099a191/"
+            target="_blank"
+            title="LinkedIn Profile"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://github.com/nianokia"
+            title="GitHub Profile"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <div class="author text-center mt-4 mx-3">
+          This project was coded by Nia Wright and is
+          <a
+            href="https://github.com/nianokia/portfolio-project"
+            target="_blank"
+            title="Porfolio Repository"
+            >open-sourced</a
+          >.
+        </div>
+      </footer>
     </div>
   </body>
 </html>
