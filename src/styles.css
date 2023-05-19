@@ -244,6 +244,11 @@ footer .socials {
   font-size: 28px;
 }
 
+footer button {
+  border: none;
+  background: none;
+}
+
 footer i {
   background: var(--secondary-color);
   color: var(--primary-color);
