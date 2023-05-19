@@ -99,8 +99,7 @@ p {
 .btn-hero {
   background: var(--accent-color);
   color: var(--terciary-color);
-  padding: 15px;
-  width: 175px;
+  padding: 15px 45px;
 }
 
 .btn-hero:hover {
@@ -303,16 +302,11 @@ footer i:hover {
     display: none;
   }
 
-  .hero-content p {
+  .introduction {
     padding: 0;
     margin: 0;
     text-align: justify;
     font-size: 14px;
-  }
-
-  .hero-btn {
-    display: block;
-    margin: auto;
   }
 
   .skills-content {
@@ -382,6 +376,10 @@ footer i:hover {
 
   .nav-home {
     display: none;
+  }
+
+  .about-container .btn-hero {
+    padding: 15px 25px;
   }
 
   .certificate-responsive {
